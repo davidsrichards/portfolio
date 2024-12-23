@@ -10,7 +10,7 @@ const AboutClients = () => {
 			<p className="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">
 				{clientsHeading}
 			</p>
-			<div className=" content-center md:flex gap-2 lg:flex-nowrap  flex-wrap mt-12">
+			<div className=" content-center md:flex gap-2 lg:flex-nowrap flex-wrap mt-12">
 				{clientsData.map((client) => (
 					<AboutClientSingle
 						title={client.title}
